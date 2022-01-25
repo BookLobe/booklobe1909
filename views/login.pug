@@ -1,0 +1,23 @@
+block scripts 
+    script 
+        include ../static/index.js
+block style 
+        style 
+            include ../static/login.css
+block content 
+
+    .box1
+        img(src='../static/logo.jpeg' alt='')
+        p2
+            a(href='/') X
+        h2 Login
+        form(action='/login', method='POST', class='myclass')
+            input(type='Email' name='email' placeholder='Email Address' required)
+            input(type='password' name='password' placeholder='Password' minlength='6' required)
+            button.btn(type='submit') Login 
+        p 
+            a(href='')  Forgot Password ?
+                
+        p1
+            | New Member ? 
+            a#button(href='/signup') Sign Up
