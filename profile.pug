@@ -1,0 +1,38 @@
+extend base.pug
+
+block scripts 
+    script(src='/static/index.js')
+block style
+        style 
+            include ../static/home.css
+            include ../static/profile.css
+            
+
+block content 
+
+    .container
+        .para-container
+            p.para Name:
+            div.line
+            p.para Phone:
+            div.line
+            p.para Email id:
+            div.line
+            p.para Password:
+            div.line
+            p
+            form(action='/login', method='get')
+                button Login
+            img.logo(src='../static/logo.jpeg' alt='')
+        .sub-1
+            img.prof-img(src='../static/userlogo.jpeg' alt='')
+            div.line
+            h4
+                a1(href='#') Payment
+            h4
+                a1.help-link(href='#') Help
+            .foot-container
+                p.foot-para
+                a1.foot-links(href='#') Terms &amp; conditions
+                p.foot-para
+                a1.footlinks(href='#') FAQ&apos;s

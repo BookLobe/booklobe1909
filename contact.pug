@@ -1,0 +1,38 @@
+extend base.pug
+
+block scripts 
+    script(src='/static/index.js')
+block style
+        style 
+            include ../static/home.css
+            include ../static/contact.css
+
+block content
+    .img 
+        img(src='../static/cont.jpeg' alt='')
+        h1 Contact Us
+    .container1
+        form(action='/contact', method = 'POST', class='myForm')
+            .form-group1
+                input#fname(type='text',class="myInput", name='cfirst' placeholder='Your name')
+            .form-group
+                input#lname(type='text',class="myInput", name='cemail' placeholder='Your Email Id')
+            .form-group
+                textarea#subject(type='text',class="myInput", name='subject', placeholder='Write something' style='height:200px')
+            button.btn Submit
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    
+
+
