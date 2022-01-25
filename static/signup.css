@@ -1,0 +1,100 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=Balsamiq+Sans:wght@700&family=Nunito&family=Rubik:wght@300;400;500&display=swap');
+
+        .box1 {
+            margin: 80px auto;
+
+            /* position: absolute; */
+            width: 361px;
+            height: 550px;
+
+            /* background: radial-gradient(88.37% 85.83% at 19.94% 19.52%, rgba(255, 255, 255, 0.32) 0%, rgba(255, 255, 255, 0.29) 82.92%, rgba(255, 255, 255, 0.19) 94.84%, rgba(218, 214, 214, 0.300967) 94.85%, rgba(234, 234, 234, 0.924456) 98.96%); */
+            border: 2px solid #6393EB;
+            box-sizing: border-box;
+            box-shadow: -10px -10px 20px rgba(150, 150, 150, 0.25), 10px 10px 20px rgba(104, 101, 101, 0.2);
+            border-radius: 21px;
+        }
+
+        img {
+            width: 98px;
+            float: left;
+            padding: 7px 5px;
+        }
+
+        h2 {
+            font-size: 35px;
+            padding: 0px 120px;
+            font-family: 'Baloo Bhaina 2', cursive;
+            margin: 19px 0px
+        }
+
+        .myclass input {
+            border: 0px;
+            border-radius: 15px;
+            width: 85%;
+            margin: 12px 22px;
+            margin-block-end: 6px;
+            padding: 15px 14px;
+            outline: 1px solid #6393EB;
+            background-color: #e7f0fe;
+            font-family: 'Nunito';
+
+        }
+
+        p {
+            color: blue;
+            margin: 0px 34px;
+            font-size: 14px;
+        }
+
+       
+        p a {
+            text-decoration: none;
+            font-family: 'Nunito';
+        }
+
+        .btn {
+            margin: 10px 26px;
+            border-radius: 12px;
+            width: 87px;
+            padding: 6px 0px;
+            background: #6393EB;
+            border: 2px solid #6393EB;
+            color: white;
+            cursor: pointer;
+            font-family: 'Nunito';
+        }
+        .btn:hover{
+            background-color: #4370c5;
+            transition: 0.3s;
+        }
+
+        p1 {
+            display: block;
+            font-size: 17px;
+            margin: 18px 29px;
+            font-family: 'Baloo Bhaina 2', cursive;
+            text-decoration: none;
+        }
+        p1 a{
+            text-decoration: none;
+        }
+        p1 a:hover{
+            color: black;
+        }
+        p a:hover{
+            color: black;
+        }
+        p2 a{
+            float: right;
+            margin-right: 20px;
+            margin-top: 6px;
+            font-size: 25px;
+            text-decoration: none;
+            font-family: 'Baloo Bhaina 2';
+            color: #6393eb;
+            cursor: pointer;
+        }
+        p2 a:hover{
+            color: black;
+        }

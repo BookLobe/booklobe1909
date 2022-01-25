@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=Balsamiq+Sans:wght@700&family=Nunito&family=Rubik:wght@300;400;500&display=swap');
+h1{
+    display: flex;
+    text-align: center;
+    padding: 0px 600px;
+    font-size: 50px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    }
+p{
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+    padding: 0px 120px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    }
+p1{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 0px 530px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    }
+.team .teammem{
+    font-size: 30px;
+    display: inline-block;
+    padding: 0px 123px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    }
+h5{
+    margin: 2px 2px;
+    }
+h6{
+    margin-block-start: 2px;
+    color: #6393eb;
+    font-style: italic;
+    font-size: 18px;
+    }

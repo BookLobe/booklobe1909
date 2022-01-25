@@ -1,0 +1,49 @@
+.front img{
+    float: left;
+    height: 350px;
+    margin-left: 60px;
+}
+.front h3{
+    display: inline-block;
+    margin: auto;
+    margin-left: 179px;
+    margin-bottom: 73px;
+    padding: 65px 2px;
+    font-size: 118px;
+
+}
+.front h3 p{
+    font-size: 5px;
+    font-size: 30px;
+    margin: auto;
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 26%;
+    margin: 20px 28px;
+    height: 335px;
+    background-color: #6393ea;
+    padding: 0px 20px;
+}
+.btn{
+    display: flex;
+    height: 60px;
+    width: 400px;
+    margin: 40px 45px;
+    background-color: white;
+    border: 3px solid #6393eb;
+    border-radius: 7px;
+    font-family: 'Nunito';
+    font-size: 28px;
+    padding: 7px 11px;
+    cursor: pointer;
+    justify-content: center;
+}
+.img img{
+    padding-top: 16px;
+    margin-left:750px;
+    position: absolute;
+    height: 480px;
+}
